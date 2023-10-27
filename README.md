@@ -19,7 +19,7 @@ For More information, Please visit my data code [website](https://github.com/neu
 
 ### Prerequisite: Seurat, Garnett and its requirements
 
-You should install Garnett [website](https://cole-trapnell-lab.github.io/garnett/docs/). 
+You should install [Garnett](https://cole-trapnell-lab.github.io/garnett/docs/). 
 
 ````
 if (!requireNamespace("BiocManager"))
@@ -44,9 +44,7 @@ devtools::install_github("neurohugo/RegenOrNoRegen")
 
 After load the library you can use it this way.
 ````
-
 ResultSeurat=RegenOrNoRegen(OriginalSeurat)
-
 ````
 
 <br>
