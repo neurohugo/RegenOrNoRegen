@@ -12,7 +12,7 @@ Package
 
 `RegenOrNoRegen` is an R package that classifies Regenerating or Non-regenerating neurons from scRNAseq data.
 
-For More information, Please visit my webpage[website](https://github.com/neurohugo/SingleCellPatchseqAnalysis)
+For More information, Please visit my data code [website](https://github.com/neurohugo/SingleCellPatchseqAnalysis)
 
 <br>
 
