@@ -38,7 +38,7 @@ devtools::install_github("cole-trapnell-lab/garnett")
 The dev version of the package can be installed through GitHub using;
 
 ````
-devtools::install_github("neurohuho/RegenorNoRegen")
+devtools::install_github("neurohugo/RegenOrNoRegen")
 ````
 
 ## Usage
@@ -46,7 +46,7 @@ devtools::install_github("neurohuho/RegenorNoRegen")
 After load the library you can use it this way.
 ````
 
-ResultSeurat=RegenorNoRegen(OriginalSeurat)
+ResultSeurat=RegenOrNoRegen(OriginalSeurat)
 
 ````
 
