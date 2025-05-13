@@ -60,7 +60,7 @@ ResultSeurat=RegenOrNoRegen::SeuratReturn(ResultSeurat,GeneIDType="ENSEMBL")
 You can find your result as a phenotype.
 
 ```
-ResultSeurat$RegenerationIndex
+ResultSeurat$Regeneration_Index
 ```
 
 <br>
