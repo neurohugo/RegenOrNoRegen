@@ -40,13 +40,28 @@ The dev version of the package can be installed through GitHub using;
 devtools::install_github("neurohugo/RegenOrNoRegen")
 ````
 
-## Usage
 
-After load the library you can use it this way.
+## Usage (Updated 5/12/2025)
+
+After load the library you can use it this way. (If you have 'SYMBOL' gene names)
+
 ````
-ResultSeurat=RegenOrNoRegen(OriginalSeurat)
+ResultSeurat=RegenOrNoRegen::SeuratReturn(ResultSeurat)
+
 ````
+If you have ENSEMBL gene names, use
+
+ResultSeurat=RegenOrNoRegen::SeuratReturn(ResultSeurat,GeneIDType="ENSEMBL")
+
+
+
+## Result
+
+You can find your result as a phenotype.
+
+```
+ResultSeurat$RegenerationIndex
+```
 
 <br>
-
 
